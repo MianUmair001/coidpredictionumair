@@ -7,7 +7,7 @@ app = Flask(__name__)
 model=pickle.load(open('model.pkl','rb'))
 
 
-@app.route('/')
+@app.route('/',methods=['GET'])
 def hello_world():
     return render_template("covid19.html")
 
