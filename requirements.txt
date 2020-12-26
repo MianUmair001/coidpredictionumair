@@ -1,2 +1,2 @@
 Flask==1.1.2
-pandas @ file:///tmp/build/80754af9/pandas_1592841659173/work
+pandas
