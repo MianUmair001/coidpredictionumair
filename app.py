@@ -25,4 +25,4 @@ def predict():
     return render_template('covid19.html',pred='Probability of New Cases is {}'.format(output))
 
 if __name__ == '__main__':
-    app.run(debug=True)pip freeze > requirements.txt
+    app.run(debug=True) 
